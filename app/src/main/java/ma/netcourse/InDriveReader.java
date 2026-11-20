@@ -32,7 +32,7 @@ final class InDriveReader {
             Rect r=new Rect(); detail.getBoundsInScreen(r);
             if(r.top>0) result.mapBottom=r.top;
         }
-        if(result.mapBottom<0 && distanceNode!=null) {
+        if(distanceNode!=null) {
             Rect r=new Rect(); distanceNode.getBoundsInScreen(r);
             if(r.top>0) result.mapBottom=r.top;
         }
