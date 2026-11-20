@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Analyse les distances et prix des offres inDrive pour afficher une estimation de rentabilite. La capture est traitee uniquement sur le telephone. Aucune action automatique.</string>
+</resources>
